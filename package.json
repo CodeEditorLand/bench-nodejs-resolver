@@ -27,9 +27,9 @@
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
-		"enhanced-resolve": "^5.15.0",
-		"oxc-resolver": "^0.0.1",
-		"tinybench": "^2.5.1"
+		"enhanced-resolve": "5.16.0",
+		"oxc-resolver": "1.7.0",
+		"tinybench": "2.8.0"
 	},
 	"publishConfig": {
 		"access": "public"
