@@ -25,7 +25,7 @@
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.8",
+		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
 		"enhanced-resolve": "5.16.1",
 		"oxc-resolver": "1.7.0",
