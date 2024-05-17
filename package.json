@@ -1,37 +1,13 @@
 {
 	"name": "bench-nodejs-resolver",
-	"version": "0.0.1",
-	"private": false,
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/BenchNodeJSResolver#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/BenchNodeJSResolver/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/BenchNodeJSResolver.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🛬 Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6",
 		"enhanced-resolve": "5.16.1",
 		"oxc-resolver": "1.7.0",
 		"tinybench": "2.8.0"
-	},
-	"publishConfig": {
-		"access": "public"
 	}
 }
