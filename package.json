@@ -2,8 +2,8 @@
 	"name": "bench-nodejs-resolver",
 	"scripts": {},
 	"devDependencies": {
-		"enhanced-resolve": "^5.17.0",
-		"oxc-resolver": "^1.8.1",
-		"tinybench": "^2.8.0"
+		"enhanced-resolve": "5.17.0",
+		"oxc-resolver": "1.8.1",
+		"tinybench": "2.8.0"
 	}
 }
