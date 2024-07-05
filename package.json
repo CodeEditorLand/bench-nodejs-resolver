@@ -3,7 +3,7 @@
 	"scripts": {},
 	"devDependencies": {
 		"enhanced-resolve": "5.17.0",
-		"oxc-resolver": "1.9.2",
+		"oxc-resolver": "1.9.3",
 		"tinybench": "2.8.0"
 	}
 }
