@@ -2,7 +2,7 @@ import assert from "assert";
 import fs from "fs";
 import { bench, describe } from "vitest";
 import enhancedResolve from 'enhanced-resolve';
-import { ResolverFactory as OXCResolverFactory } from 'oxc-resolver';
+import { ResolverFactory as OxcResolverFactory } from 'oxc-resolver';
 
 const cwd = process.cwd();
 
@@ -10,7 +10,7 @@ const enhancedResolver = enhancedResolve.ResolverFactory.createResolver({
   fileSystem: new enhancedResolve.CachedInputFileSystem(fs, 4000),
 });
 
-const oxcResolver = new OXCResolverFactory({});
+const oxcResolver = new OxcResolverFactory({});
 
 const data = [
   './src/index.bench.mjs',
@@ -43,7 +43,7 @@ describe("bench", () => {
     }
   });
 
-  bench('oxc-resolver', async function testOXCResolver() {
+  bench('oxc-resolver', async function testOxcResolver() {
     for (let path of data) {
       await oxcResolveAsync(path);
     }
