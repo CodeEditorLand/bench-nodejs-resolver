@@ -1,7 +1,7 @@
 # Bench Resolver
 
-* [enhanced-resolve](https://www.npmjs.com/package/enhanced-resolve)
-* [oxc-resolver](https://www.npmjs.com/package/oxc-resolver)
+-   [enhanced-resolve](https://www.npmjs.com/package/enhanced-resolve)
+-   [oxc-resolver](https://www.npmjs.com/package/oxc-resolver)
 
 ## Summary
 
@@ -26,4 +26,3 @@ BENCH  Summary
 pnpm install
 pnpm test
 ```
-
