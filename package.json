@@ -1,7 +1,7 @@
 {
 	"devDependencies": {
 		"enhanced-resolve": "5.17.1",
-		"oxc-resolver": "1.12.0"
+		"oxc-resolver": "2.0.0"
 	},
 	"name": "bench-nodejs-resolver",
 	"scripts": {
