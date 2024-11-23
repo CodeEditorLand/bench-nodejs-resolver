@@ -1,13 +1,10 @@
 {
-  "name": "bench-nodejs-resolver",
-  "private": true,
-  "packageManager": "pnpm@9.12.0",
-  "scripts": {
-    "bench": "vitest bench --run"
-  },
-  "devDependencies": {
-    "enhanced-resolve": "^5.17.1",
-    "oxc-resolver": "^2.1.1",
-    "vitest": "^2.1.5"
-  }
+	"devDependencies": {
+		"enhanced-resolve": "^5.17.1",
+		"oxc-resolver": "^2.1.1"
+	},
+	"name": "bench-nodejs-resolver",
+	"scripts": {
+		"bench": "vitest bench --run"
+	}
 }
