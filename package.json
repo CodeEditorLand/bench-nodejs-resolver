@@ -1,10 +1,11 @@
 {
-	"devDependencies": {
-		"enhanced-resolve": "^5.17.1",
-		"oxc-resolver": "^2.1.1"
-	},
 	"name": "bench-nodejs-resolver",
 	"scripts": {
 		"bench": "vitest bench --run"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"enhanced-resolve": "^5.17.1",
+		"oxc-resolver": "^2.1.1"
 	}
 }
