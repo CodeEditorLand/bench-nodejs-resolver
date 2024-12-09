@@ -5,7 +5,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"enhanced-resolve": "^5.17.1",
-		"oxc-resolver": "^2.1.1"
+		"@codeeditorland/resolver": "^2.1.1",
+		"enhanced-resolve": "^5.17.1"
 	}
 }
