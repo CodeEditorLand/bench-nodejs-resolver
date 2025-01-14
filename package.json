@@ -6,6 +6,6 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@codeeditorland/resolver": "^3.0.0",
-		"enhanced-resolve": "^5.17.1"
+		"enhanced-resolve": "^5.18.0"
 	}
 }
