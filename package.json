@@ -5,7 +5,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@codeeditorland/resolver": "^3.0.0",
-		"enhanced-resolve": "^5.18.1"
+		"@codeeditorland/resolver": "3.0.0",
+		"enhanced-resolve": "5.18.1"
 	}
 }
